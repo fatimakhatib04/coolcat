@@ -1,0 +1,60 @@
+body {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f9cfde;
+    padding: 20px;
+    margin-top: 3em;
+}
+
+h1 {
+font-family:'Courier New', Courier, monospace;
+}
+
+
+select {
+    padding: 10px;
+    font-size: 1.3rem;
+    margin: 10px;
+    border-radius: 1em;
+    border: #fc7eaa;
+    font-family:'Courier New', Courier, monospace;
+}
+
+label {
+    font-size: 1.3rem;
+    font-family:'Courier New', Courier, monospace;
+}
+
+button {
+    padding: 10px;
+    background-color: #fa6dac;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 1em;
+    margin: 20px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+button:hover {
+    background-color: #ff9900;
+}
+
+div {
+    margin-top: 20px;
+}
+
+img {
+    border: 1em #ff1d83;
+    height: 400px;
+    width: 400px;
+    display: block;
+    margin: 1em auto;
+}
+
+p {
+    font-size: 1.3rem;
+    margin-top: 15px;
+    color: #333;
+    font-family:'Courier New', Courier, monospace;
+}

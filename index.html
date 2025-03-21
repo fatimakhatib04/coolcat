@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Je CoolCat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <h1>Welk CoolCat past bij jouw maand?</h1>
+
+        <label>Kies een maand:</label>
+        <select>
+            <option value="0">Januari</option>
+            <option value="1">Februari</option>
+            <option value="2">Maart</option>
+            <option value="3">April</option>
+            <option value="4">Mei</option>
+            <option value="5">Juni</option>
+            <option value="6">Juli</option>
+            <option value="7">Augustus</option>
+            <option value="8">September</option>
+            <option value="9">Oktober</option>
+            <option value="10">November</option>
+            <option value="11">December</option>
+        </select>
+
+        <button>Vind de CoolCat!</button>
+
+        <div id="result">
+            <img id="cat-image" src="" alt="" style="display: none;" />
+            <p id="cat-description" style="display: none;"></p>
+        </div>
+    </main>
+    <!--https://www.youtube.com/watch?v=k5BJoJ9bRBE confetti tutorial-->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+    <script src="coolcat.js"></script>
+</body>
+
+</html>
