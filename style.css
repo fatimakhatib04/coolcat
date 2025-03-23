@@ -2,7 +2,7 @@ body {
     box-sizing: border-box;
     font-family: Arial, sans-serif;
     text-align: center;
-    background-image: url("/img/background.jpeg");
+    background-image: url("img/coolcatbg.jpeg");
     padding: 20px;
     margin-top: 1em;
 }
