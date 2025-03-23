@@ -14,6 +14,7 @@
 
         <label>Kies een maand:</label>
         <select>
+            <option value="" selected disabled>Selecteer een maand</option>
             <option value="0">Januari</option>
             <option value="1">Februari</option>
             <option value="2">Maart</option>
@@ -28,12 +29,21 @@
             <option value="11">December</option>
         </select>
 
-        <button>Vind de CoolCat!</button>
 
-        <div id="result">
-            <img id="cat-image" src="" alt="" style="display: none;" />
-            <p id="cat-description" style="display: none;"></p>
+        <button id="startButton">Vind de CoolCat!</button>
+
+
+        <div id="userchoice">
+            <button id="yesButton">Ja!</button>
+            <button id="noButton">Nee!</button>
         </div>
+
+
+        <div id="resultaat">
+            <img src="" alt="katten" style="display: none;" />
+            <p style="display: none;"></p>
+        </div>
+        <button id="resetButton" style="display: none;">Opnieuw Beginnen</button>
     </main>
     <!--https://www.youtube.com/watch?v=k5BJoJ9bRBE confetti tutorial-->
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
